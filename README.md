@@ -5,8 +5,6 @@
 ## 1. Membuat dokumen HTML
 Buatlah dokumen HTML seperti berikut:
 
-![ss1](https://github.com/hafizalkariem/Lab1web/assets/115614957/ced60e46-09bd-4b92-9d80-d261ec1a3575)
-
 <b>source code : </b>
 ```html
 <!DOCTYPE html>
@@ -70,6 +68,89 @@ Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokum
 </head>
 
 ```
+
+<b>Hasilnya : </b>
+
+![2](https://github.com/hafizalkariem/Lab1web/assets/115614957/639cd054-d917-4ddd-9e42-d8ef6ae3bee0)
+
+
+## 3. Menambahkan Inline CSS
+Kemudian tambahkan deklarasi inline CSS pada tag `<p>` seperti berikut.
+
+```html
+<p style="text-align: center; color: #ccd8e4;">
+```
+<b>Hasil : </b>
+
+![3](https://github.com/hafizalkariem/Lab1web/assets/115614957/988bcbdc-3898-4886-b541-718b3cca627f)
+
+## 4. Membuat CSS Eksternal
+Buatlah file baru dengan nama <b>style_eksternal.css</b> kemudian buatlah deklarasi CSS seperti berikut.
+```css
+nav {
+background: #20A759;
+color:#fff;
+padding: 10px;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+padding:10px 20px;
+}
+nav .active, 
+nav a:hover {
+background: #0B6B3A;
+}
+```
+Kemudian tambahkan tag `<link>` untuk merujuk file css yang sudah dibuat pada bagian `<head>`
+```html
+<head>
+ <!-- menyisipkan css eksternal -->
+ <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+</head>
+
+```
+<b>Hasilnya : </b>
+
+![4](https://github.com/hafizalkariem/Lab1web/assets/115614957/af78a7e9-e5cb-4cdf-82b7-821c5c3e4007)
+
+## 5. Menambahkan CSS Selector
+Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file 
+style_eksternal.css, tambahkan kode berikut.
+```css
+/* ID Selector */
+#intro {
+background: #418fb1;
+border: 1px solid #099249;
+min-height: 100px;
+padding: 10px;
+}
+#intro h1 {
+text-align: left;
+border: 0;
+color: #fff;
+}
+/* Class Selector */
+.button {
+ padding: 15px 20px;
+background: #bebcbd;
+color: #fff;
+display: inline-block;
+margin: 10px;
+text-decoration: none;
+}
+.btn-primary {
+background: #E42A42;
+}
+
+```
+<b>Hasilnya : </b>
+
+![5](https://github.com/hafizalkariem/Lab1web/assets/115614957/4a941a63-b295-4ec0-8b57-a33fb29f3161)
+
+
+
+
 
 
 
