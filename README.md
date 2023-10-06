@@ -148,9 +148,8 @@ background: #E42A42;
 
 ![5](https://github.com/hafizalkariem/Lab1web/assets/115614957/4a941a63-b295-4ec0-8b57-a33fb29f3161)
 
+<h1 align="center">Pertanyaan dan Tugas</h1>
 
-
-
-
+## 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
 
 
